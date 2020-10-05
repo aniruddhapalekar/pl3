@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Code</title>
+</head>
+
+<body>
+	<header>
+		<h1>Code to find sum of digits</h1>
+		<hr />
+	</header>
+	<section>
+		<h2>
+			<i>Problem Statement: Write a code in any programming language that
+				finds sum of ten numbers.</i>
+		</h2>
+		<code style="display: block; background-color: #eee; width: 70%">
+        <pre>
+
+	# Iterative Python program to find 
+	# sum of digits of ten numbers
+		
+	def countDigit(n,arr): 
+		count = 0
+        while n > 0: 
+            n--
+            count+= arr[n]
+		return count 
+		
+    # Driver Code    
+    arr = [] 
+    for i in range(10):
+            arr[i]=int(input())
+	print ("Sum of digits : % d"%(countDigit(10,arr))) 
+
+			</pre>
+      </code>
+	</section>
+	<section>
+		<h3>Sample Input</h3>
+		<kbd >
+            Enter an array of 10 integers:arr[]={10,10,10,10,1,1,1,1,10,1}
+		</kbd>
+	</section>
+	<section>
+		<h3>Sample Output</h3>
+		<samp>
+			<code>Sum of digits: 55</code>
+		</samp>
+	</section>
+	<section>
+		<h3>Variables used in the program</h3>
+		<var>
+			count, n,arr,i
+		</var>
+	</section>
+	<section>
+		<h3>Time Complexity</h3>
+		<p>
+			O(log<sub>10</sub>(n))
+		</p>
+	</section>
+	<hr />
+	<footer>
+		<p style="display: inline-block">For Algorithm, Refer</p>
+		<a href="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/">This</a>
+	</footer>
+</body>
+
+</html>
