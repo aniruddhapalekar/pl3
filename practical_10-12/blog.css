@@ -1,0 +1,75 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+  background-color: #000;
+  background-image: url("./images/Material-Wallpaper-16-2560x1700.jpg");
+}
+.list {
+  justify-content: center;
+  align-items: center;
+}
+.list li {
+  display: inline;
+  margin: 10px;
+  align-self: center;
+}
+.list button {
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+}
+.list button:hover {
+  color: black;
+  background-color: #ddd;
+}
+.title {
+  color: white;
+}
+.container{
+  justify-content: space-between;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.blog{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.blogImage{
+  background-color: white;
+}
+.image{
+  height: 300px;
+  width: 300px;
+  margin-top: 20%;
+}
+.blogsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card{
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+}
+.postButton{
+  text-decoration: none;
+  color: white;
+  background-color: royalblue;
+  border: none
+}

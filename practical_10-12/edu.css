@@ -1,0 +1,56 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+}
+body {
+  margin: 0px;
+  background-color: #000;
+  overflow: hidden;
+  background-image: url("./images/Material-Wallpaper-16-2560x1700.jpg");
+}
+.list {
+  justify-content: center;
+  align-items: center;
+}
+.list li {
+  display: inline;
+  margin: 10px;
+  align-self: center;
+}
+.list button {
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+}
+.list button:hover {
+  color: black;
+  background-color: #ddd;
+}
+.title {
+  color: white;
+}
+.main {
+  width: 100vw;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.educationCard {
+  width: 30%;
+  background-color: rgba(200, 200, 200, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.educationCard:hover {
+  background-color: white;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px #222;
+}
