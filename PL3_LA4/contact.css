@@ -1,0 +1,90 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+}
+body {
+    margin: 0px;
+    background-color: #000;
+    overflow: hidden;
+    background-image: url("./images/Material-Wallpaper-16-2560x1700.jpg");
+  }
+.list {
+  justify-content: center;
+  align-items: center;
+}
+.list li {
+  display: inline;
+  margin: 10px;
+  align-self: center;
+}
+.list button {
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+}
+.list button:hover {
+  color: black;
+  background-color: #ddd;
+}
+.title {
+  color: white;
+}
+.container{
+    display: flex;
+    float: 1;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;  
+}
+.contactPage{
+    background-color: #ddd;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.paper{
+    background-color: white;
+    box-shadow: black;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.paper a{
+    text-decoration: none;
+    color: royalblue;
+}
+.texts li{
+    margin-bottom: 50px;
+}
+.insta{
+    background-color: rgb(200, 100, 100);
+    color: white;
+}
+.insta a{
+    color: white;
+    text-decoration: none;
+}
+.linkedin{
+    background-color: royalblue;
+}
+.linkedin a{
+    color: white;
+    text-decoration: none;
+}
+.paper:hover{
+    background-color: #ddd;
+    color: black;
+}
+.paper a:hover{
+    color: black;
+}
